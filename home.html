@@ -3,9 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
     <title>Hamoud Boualem|Webesite</title>
 </head>
 <body>
-    
+    <section id="home">
+        <div class="circle"></div>
+    <header id="header">
+        <a href="#" ><img src="images/logo-removebg-preview.png" alt="" class="logo"></a>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+        <div class="nav__close" id="nav-close">
+            <i class='bx bx-x'></i>
+        </div>
+        <ul class="nav__list">
+
+            <li class="nav__item"> <a href="#home" class="nav__link active">الصفحة الرئيسية</a></li>
+            <li class="nav__item"> <a href="#about" class="nav__link ">تقديم</a></li>
+            <li class="nav__item"><a href="#product" class="nav__link">منتجات</a></li>
+            <li class="nav__item"><a href="#career" class="nav__link">توظيف</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">اتصل بنا</a></li>
+        </ul>
+        </div>
+    </header>
+    <div class="content">
+        <div class="text__content">
+            <h2> ليس مجرد مشروب غازي <br><span class="ha">حمود بوعلام</span> رقم 1 في الجزائر</h2>
+            <p>يمتلك حمود بوعلام 40٪ من رأس مال "صودا ومشروبات الجزائر" التي تنتج مجموعة المنتجات الكاملة في قارورات زجاجية مسترجعة بسعة 1ل يتم اليوم تصدير حمود بوعلام وتوزيعه في عدّة بلدان مختلفة في أوروبا وكندا</p>
+            <a href="#about" class="button"> أعرف أكثر</a>
+        </div>
+        <div class="img__content">
+            <img src="images/slim jaune.png" alt="" class="hamoud">
+            
+        </div>
+    </div>
+
+
+    <ul class="thumb">
+        <li><img src="images/slim jaune.png" alt="" onclick="imgSlider('images/slim jaune.png'); changeCircleColor('#fedc00'); changeBack('#fedc00')"></li>
+        <li><img src="images/selecto.png" alt="" onclick="imgSlider('images/selecto.png'); changeCircleColor('#403a5a'); changeBack('#403a5a')"></li>
+        <li><img src="images/hamoud-removebg-preview.png" alt="" onclick="imgSlider('images/hamoud-removebg-preview.png'); changeCircleColor('#47a340'); changeBack('#47a340')"> </li>
+       
+       
+        <li><img src="images/sirop-removebg-preview.png" alt="" onclick="imgSlider('images/sirop-removebg-preview.png'); changeCircleColor('#d00000'); changeBack('#d00000')"></li>
+        
+    </ul>
+
+    <ul class="social">
+        <li> <a href=""><i class='bx bxl-facebook'></i></a></li>
+        <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+        <li><a href=""><i class='bx bxl-twitter' ></i></li>
+    </ul>
+</section>
+
+  <!---------------about----------->
+  <section class="about " id="about">
+    <div class="about__container">
+        <div class="about__data">
+            <span class="section-subtitle">معلومات عنا</span>
+            <h2 class="section-title about__initial">حمود بوعلام </h2>
+            <p class="about__description about__initial"> في عام 1889، تحصلت شركة حمود بوعلام على ميدالية ذهبية خلال المعرض الدولي بباريس<br>.  
+                يتنوع المجمع اليوم بحيث لديه ستة (06) وحدات إنتاج  لعلامة حمود بوعلام فبالإضافة إلى وحدة الإنتاج التاريخية الكائنة بشارع حسيبة بن بوعلي  بالجزائر العاصمة ووحدة إنتاج المشروبات الغازية في اواد تليلات بوهران (تم إنشاءها في 2007) ، تم إنشاء وحدة جديدة في 2015 ببوفاريك.
+                <br> يمتلك حمود بوعلام 40٪ من رأس مال "صودا ومشروبات الجزائر" التي تنتج مجموعة المنتجات الكاملة في قارورات زجاجية مسترجعة بسعة 1ل .ل
+                يتم تعبئة عصير الفواكه  (بدون مواد حافظة) في قارورات بلاستيكية بسعة 1ل ،2ل و 33سل من طرف شركة "سان فروي" بسطيف التي يمتلك حمود بوعلام 25٪ من رأس مالها.
+                <br>منحت شركة حمود بوعلام  ترخيص إلى شركة "سورس بارو" في فرنسا لانتاج العلامتين "سيلكتو" و "حمود" .و
+                يتم اليوم تصدير حمود بوعلام وتوزيعه في عدّة بلدان مختلفة في أوروبا وكندا.</p>
+            <a href="#" class="button">اكتشف تاريخنا</a>
+       
+          </div>
+          <img src="images/boualem-removebg-preview.png" alt="" class="about__img">
+    </div>
+</section>
+
+
+     <!---------------manu----------->
+     <section class="product " id="product">
+        <span class="section-subtitle">منتجاتنا</span>
+        <h2 class="section-title">منتجاتنا لهذا الأسبوع</h2>
+
+        <div class="product__container">
+            <div class="product__content">
+                <img src="images/pr1-removebg-preview.png" alt="" class="product__img">
+                <h3 class="product__name"> Hamoud</h3>
+                <span class="product__detail">Hamoud Gazouz Blanche</span>
+                <span class="product__prix">90DA</span>
+                <a href="#" class="button product__button"><i class='bx bx-cart'></i></a>
+            </div>
+
+            <div class="product__content">
+                <img src="images/pr2-removebg-preview.png" alt=""  class="product__img">
+                <h3 class="product__name">Selecto</h3>
+                <span class="product__detail">Selecto</span>
+                <span class="product__prix">90DA</span>
+                <a href="#" class="button product__button"><i class='bx bx-cart'></i></a>
+            </div>
+
+            <div class="product__content ">
+                <img src="images/pr3-removebg-preview.png" alt=""  class="product__img">
+                <h3 class="product__name">Slim</h3>
+                <span class="product__detail">Slim</span>
+                <span class="product__prix">100DA</span>
+                <a href="#" class="button product__button"><i class='bx bx-cart'></i></a>
+            </div>
+            <div class="product__content ">
+                <img src="images/pr4-removebg-preview.png" alt=""  class="product__img">
+                <h3 class="product__name">Sirop</h3>
+                <span class="product__detail">Sirop</span>
+                <span class="product__prix">140DA</span>
+                <a href="#" class="button product__button"><i class='bx bx-cart'></i></a>
+            </div>
+            <div class="product__content ">
+                <img src="images/pr5-removebg-preview.png" alt=""  class="product__img">
+                <h3 class="product__name">Lim On</h3>
+                <span class="product__detail">Lim On</span>
+                <span class="product__prix">110DA</span>
+                <a href="#" class="button product__button"><i class='bx bx-cart'></i></a>
+            </div>
+            <div class="product__content ">
+                <img src="images/pr6-removebg-preview.png" alt=""  class="product__img">
+                <h3 class="product__name">Cola</h3>
+                <span class="product__detail">Cola</span>
+                <span class="product__prix">70DA</span>
+                <a href="#" class="button product__button"><i class='bx bx-cart'></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-----------------career---------->
+<section class="career" id="career">
+    <span class="section-subtitle">توظيف</span>
+    <h2 class="section-title">توظيف</h2>
+     <div class="required__message">   * : حقل اجباري</div>
+
+    <div class="career__container">
+       
+        <form action="" method="POST" class="career__form">
+
+                <label for=""class="career__label">اللقب *</label>
+                <input type="text" placeholder="اللقب" class="career__input" required>
+                <label for=""  class="career__label">الاسم *</label>
+                <input type="text" placeholder="الاسم" class="career__input" required>
+            
+            <label for=""  class="career__label">البريد الإلكتروني *</label>
+            <input type="email" placeholder="البريد الإلكتروني" class="career__input" required>
+            
+            <label for=""  class="career__label">مستلم *</label>
+            <select class="career__input" required>
+                <option value="">أختر</option>
+                <option value="achat">  الشراء والتوريد </option>
+                <option value="audit"> التدقيق والرقابة الإدارية</option>
+                <option value="commmerce">تجاري</option>
+            </select>
+
+            <label for=""  class="career__label">الولاية *</label>
+            <select class="career__input" required>
+                <option value=""> Adrar</option>
+                <option value="">Chlef </option>
+                <option value="">Laghouat</option>
+                <option value="">Oum El Bouaghi</option>
+                <option value="">Batna </option>
+
+                <option value="">Bejaïa </option>
+                <option value="">Biskra </option>
+                <option value="">Béchar</option>
+                <option value="">Blida</option>
+                <option value="">Bouira </option>
+                <option value="">Tamanrasset</option>
+
+                <option value="">Tebessa</option>
+                <option value="">Tlemcen</option>
+                <option value="">Tiaret</option>
+                <option value="">Tizi Ouzou </option>
+            </select>
+            <label for=""  class="career__label">الهدف *</label>
+            <input type="text" placeholder="الهدف" class="career__input" required>
+            <label for="" class="career__label"> السيرة الذاتية *</label>
+            <input type="file" id="upload" class="career__input" required>
+            
+            <label for=""  class="career__label">الرسالة*</label>
+            <textarea name="" id="" cols="60" rows="10" required></textarea>
+
+            <button type="submit" class=" button__career">إرسال</button>    
+        </form>
+        
+
+    </div>
+   
+</section>
+<!-----------------contact---------->
+<section class="contact" id="contact">
+        <span class="section-subtitle">اتصل بنا</span>
+        <h2 class="section-title">اتصل بنا</h2>
+        
+        <div class="contact__container flex">
+            <form action="" method="POST" subject="argentpoch77@gmail.com" name="contact" data-netlify="true" class="contact__form">
+
+                <div class="contact__inputs">
+                    <p>
+                        <input type="text" placeholder="اللقب" name="name" class="contact__input" required>
+                    </p>
+                    <p>
+                        <input type="mail" placeholder="البريد الإلكتروني" name="email" class="contact__input" required>
+                    </p>
+               
+                </div>
+               
+               <p>
+
+               </p>
+               <textarea name="Message" id="" cols="0" rows="10" placeholder="Message"  class="contact__input" required ></textarea>
+                <p>
+                    <button type="submit" class="button contact__button">إرسال رسالة</button>
+                </p>
+               
+              
+            </form>
+            <div>
+            <div class="contact__info">
+                <h3 class="contact__subtitle">الهاتف</h3>
+                <span class="contact__text">+213 (0) 21 67 47 40</span>
+            </div>
+
+            <div class="contact__info">
+                <h3 class="contact__subtitle">الفاكس</h3>
+                <span class="contact__text">+213 (0) 21 67 59 04
+                </span>
+            </div>
+
+            <div class="contact__info">
+                <h3 class="contact__subtitle">العنوان</h3>
+                <span class="contact__text">201, شارع حسيبة بن بوعلي - 16108 <br> الجزائر ـ الجزائرالعاصمة</span>
+            </div>
+        </div>
+        </div>
+  
+   
+</section>
+<!-----------------footer---------->
+<section class="footer">
+    <div class="footer__container">
+<img src="images/logo-removebg-preview.png" alt="" class="footer__logo">
+<img src="images/footer__image-removebg-preview.png" alt="" class="footer__images">
+ <p>© 2019 حمود ، جميع الحقوق محفوظة. تطوير <span>HAMIMECHE KARIM</span>  - Netlify Hosting</p>
+    </div>
+
+</section>
+
+
+<script src="js/slide.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
