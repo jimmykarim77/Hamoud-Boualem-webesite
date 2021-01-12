@@ -221,6 +221,10 @@ header .nav__link.active {
   clip-path: circle(600px at right 800px);
   transition: 1s all ease-in-out;
 }
+.ha {
+  position: relative;
+  -webkit-text-stroke: 0.3vw #333;
+}
 
 .hamoud {
   transform: rotate(-10deg);
@@ -229,6 +233,10 @@ header .nav__link.active {
 }
 .hamoud:hover {
   transform: scale(1.1) rotate(360deg);
+}
+
+.elfsight-app-dbaddfb1-f3f1-4fdc-a823-a3dbca0faafd {
+  bottom: 150px;
 }
 
 /*******************************about*****************************/
@@ -549,6 +557,9 @@ header .nav__link.active {
   }
   .footer__images {
     width: 300px;
+  }
+  .elfsight-app-dbaddfb1-f3f1-4fdc-a823-a3dbca0faafd {
+    right: 70px;
   }
 }
 /**************768px*************/

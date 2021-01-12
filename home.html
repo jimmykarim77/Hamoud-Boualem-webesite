@@ -34,7 +34,7 @@
     </header>
     <div class="content">
         <div class="text__content">
-            <h2> ليس مجرد مشروب غازي <br><span class="ha">حمود بوعلام</span> رقم 1 في الجزائر</h2>
+            <h2> ليس مجرد مشروب غازي <br><span  class="ha">حمود بوعلام</span> رقم 1 في الجزائر</h2>
             <p>يمتلك حمود بوعلام 40٪ من رأس مال "صودا ومشروبات الجزائر" التي تنتج مجموعة المنتجات الكاملة في قارورات زجاجية مسترجعة بسعة 1ل يتم اليوم تصدير حمود بوعلام وتوزيعه في عدّة بلدان مختلفة في أوروبا وكندا</p>
             <a href="#about" class="button"> أعرف أكثر</a>
         </div>
@@ -189,7 +189,7 @@
             <input type="file" id="upload" class="career__input" required>
             
             <label for=""  class="career__label">الرسالة*</label>
-            <textarea name="" id="" cols="60" rows="10" required></textarea>
+            <textarea name="" id="" cols="60" rows="10" class="texarea" required></textarea>
 
             <button type="submit" class=" button__career">إرسال</button>    
         </form>
@@ -252,37 +252,14 @@
     <div class="footer__container">
 <img src="images/logo-removebg-preview.png" alt="" class="footer__logo">
 <img src="images/footer__image-removebg-preview.png" alt="" class="footer__images">
- <p>© 2019 حمود ، جميع الحقوق محفوظة. تطوير <span>HAMIMECHE KARIM</span>  - Netlify Hosting</p>
+ <p class="parag">© 2019 حمود ، جميع الحقوق محفوظة. تطوير <span>HAMIMECHE KARIM</span>  - Netlify Hosting</p>
     </div>
 
 </section>
-
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v9.0'
-    });
-  };
-
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ar_AR/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="107150201164032"
-theme_color="#fedc00"
-logged_in_greeting="مرحبا! كيف يمكننا مساعدتك ؟"
-logged_out_greeting="مرحبا! كيف يمكننا مساعدتك ؟">
-</div>
+<!----------scroll reveal---------->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-dbaddfb1-f3f1-4fdc-a823-a3dbca0faafd"></div>
 <script src="js/slide.js"></script>
 <script src="js/main.js"></script>
 </body>

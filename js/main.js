@@ -54,3 +54,27 @@ function scrollHeader() {
   else Header.classList.remove("scroll-header");
 }
 window.addEventListener("scroll", scrollHeader);
+
+//scroll reveal animation
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "40px",
+  duration: 2000,
+  reset: true,
+});
+
+sr.reveal(
+  `.text__content, .about__data, .about__img
+        , .product__content, .career__input, .career__label
+        , .texarea, .contact__form, .contact__info, .footer__logo , .footer__images, .parag `,
+  {
+    interval: 200,
+  }
+);
+const rr = ScrollReveal({
+  origin: "right",
+  distance: "60px",
+  duration: 3000,
+  reset: true,
+});
+rr.reveal(`.img__content`, { interval: 400 });
