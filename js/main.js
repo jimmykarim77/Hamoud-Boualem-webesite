@@ -55,6 +55,24 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 
+//bubbles
+const createBubble = () => {
+  const section = document.getElementById("home");
+  const createElement = document.createElement("strong");
+  var size = Math.random() * 60;
+
+  createElement.style.width = 20 + size + "px";
+  createElement.style.height = 20 + size + "px";
+
+  createElement.style.right = Math.random() * innerWidth + "px";
+  section.appendChild(createElement);
+
+  setTimeout(() => {
+    createElement.remove();
+  }, 4000);
+};
+setInterval(createBubble, 50);
+
 //scroll reveal animation
 const sr = ScrollReveal({
   origin: "top",
@@ -64,17 +82,10 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(
-  `.text__content, .about__data, .about__img
+  `.text__content, .img__content  , .about__data, .about__img
         , .product__content, .career__input, .career__label
         , .texarea, .contact__form, .contact__info, .footer__logo , .footer__images, .parag `,
   {
     interval: 200,
   }
 );
-const rr = ScrollReveal({
-  origin: "right",
-  distance: "60px",
-  duration: 3000,
-  reset: true,
-});
-rr.reveal(`.img__content`, { interval: 400 });

@@ -12,6 +12,30 @@ html {
 body {
   background-color: #fbfefd;
 }
+/*************bubbles*************/
+strong {
+  position: absolute;
+  bottom: 50px;
+  background: transparent;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: inset 0 0 10px #fedc00;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1200%);
+    opacity: 0;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -559,7 +583,7 @@ header .nav__link.active {
     width: 300px;
   }
   .elfsight-app-dbaddfb1-f3f1-4fdc-a823-a3dbca0faafd {
-    right: 70px;
+    right: 100px;
   }
 }
 /**************768px*************/
